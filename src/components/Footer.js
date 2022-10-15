@@ -1,4 +1,6 @@
 
+import '../App.css'
+
 const Footer = () => {
 
   const footerStyle = {

@@ -1,4 +1,6 @@
 
+import '../App.css'
+
 const Icon = (props) => {
 
   const type = props.type

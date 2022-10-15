@@ -1,3 +1,6 @@
+
+import '../App.css'
+
 import Icon from './Icon'
 
 const MenuButton = (props) => {
