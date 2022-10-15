@@ -5,17 +5,19 @@ import Icon from './Icon'
 
 const MenuButton = (props) => {
 
-  const menuButtonStyle = ''
-
   const text = props.text
   const type = props.type
 
+  let buttonTextStyle = 'button-text'
+
+  if (type === 'Teacher') {
+    buttonTextStyle = buttonTextStyle.concat(' button-text-teacher')
+  }
+
   return (
-    <div className={menuButtonStyle}>
-      <a href='/'>
-        <Icon type={type} /><p>{text}</p>
-      </a>
-    </div>
+    <a className='menu-button' href='/'>
+      <Icon type={type} /> <div className={buttonTextStyle}>{text}</div>
+    </a>
   )
 }
 

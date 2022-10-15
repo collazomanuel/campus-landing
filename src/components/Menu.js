@@ -5,10 +5,8 @@ import MenuButton from './MenuButton'
 
 const Menu = () => {
 
-  const menuStyle = 'middle-part'
-
   return (
-    <div className={menuStyle}>
+    <div className='middle-part button-container'>
       <MenuButton type='Book' text='Grado' />
       <MenuButton type='Hat' text='Posgrado' />
       <MenuButton type='Teacher' text='Formación docente' />

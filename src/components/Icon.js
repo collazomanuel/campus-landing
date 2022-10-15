@@ -3,7 +3,7 @@ import '../App.css'
 
 const Icon = (props) => {
 
-  const iconStyle = ''
+  const iconStyle = 'button-icon'
 
   const type = props.type
 
@@ -48,7 +48,7 @@ const Icon = (props) => {
     )
   case 'Teacher':
     return (
-      <svg className={iconStyle} x="0px" y="0px" viewBox="0 0 256 203">
+      <svg className='button-icon' x="0px" y="0px" viewBox="0 0 256 203">
         <g>
           <path d="M84.2,2.3c18.7,0,33.8,15.1,33.8,33.8s-15.1,33.8-33.8,33.8S50.4,54.7,50.4,36.1S65.5,2.3,84.2,2.3z M188.8,151.4
                     c4.3,0,7.8,2.2,7.8,5s-3.5,5-7.8,5c-4.3,0-7.8-2.2-7.8-5S184.5,151.4,188.8,151.4z M149.3,112.1l-3.9,11.1c-4-8.3-8-16.3-11.1-21.8

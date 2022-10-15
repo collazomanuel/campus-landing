@@ -10,8 +10,8 @@ const App = () => {
 
   return (
     <div>
-      <Carousel />
       <Menu />
+      <Carousel />
       <Footer />
     </div>
   )
