@@ -3,13 +3,10 @@ import '../App.css'
 
 const Footer = () => {
 
-  const footerStyle = {
-    color: '#FFFFFF',
-    backgroundColor: '#484A4B'
-  }
+  const footerStyle = 'bottom-part'
 
   return (
-    <div style={footerStyle}>
+    <div className={footerStyle}>
       <h1>
         FOOTER
       </h1>

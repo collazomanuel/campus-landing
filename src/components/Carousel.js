@@ -3,13 +3,10 @@ import '../App.css'
 
 const Carousel = () => {
 
-  const carouselStyle = {
-    color: '#FFFFFF',
-    backgroundColor: '#234C9F'
-  }
+  const carouselStyle = 'top-part'
 
   return (
-    <div style={carouselStyle}>
+    <div className={carouselStyle}>
       <h1>
         CAROUSEL
       </h1>

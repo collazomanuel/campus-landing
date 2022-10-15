@@ -1,35 +1,18 @@
 
 import '../App.css'
 
-import Icon from './Icon'
-
-const MenuButton = (props) => {
-
-  const text = props.text
-  const type = props.type
-
-  return (
-    <div>
-      <a href='/'>
-        <Icon type={type} /><p>{text}</p>
-      </a>
-    </div>
-  )
-}
+import MenuButton from './MenuButton'
 
 const Menu = () => {
 
-  const menuStyle = {
-    color: '#484A4B',
-    backgroundColor: '#D3E9EC'
-  }
+  const menuStyle = 'middle-part'
 
   return (
-    <div style={menuStyle}>
+    <div className={menuStyle}>
       <MenuButton type='Book' text='Grado' />
       <MenuButton type='Hat' text='Posgrado' />
       <MenuButton type='Teacher' text='Formación docente' />
-      <MenuButton type='Cetec' text='' />
+      <MenuButton type='Cetec' text='Cetec' />
     </div>
   )
 }
