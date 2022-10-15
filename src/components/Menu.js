@@ -1,3 +1,18 @@
+import Icon from './Icon'
+
+const MenuButton = (props) => {
+
+  const text = props.text
+  const type = props.type
+
+  return (
+    <div>
+      <a href='/'>
+        <Icon type={type} /><p>{text}</p>
+      </a>
+    </div>
+  )
+}
 
 const Menu = () => {
 
@@ -8,9 +23,10 @@ const Menu = () => {
 
   return (
     <div style={menuStyle}>
-      <h1>
-        MENU
-      </h1>
+      <MenuButton type='Book' text='Grado' />
+      <MenuButton type='Hat' text='Posgrado' />
+      <MenuButton type='Teacher' text='Formación docente' />
+      <MenuButton type='Cetec' text='' />
     </div>
   )
 }
