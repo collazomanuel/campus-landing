@@ -6,6 +6,7 @@
     --clr-4: #4495d7;
     --clr-5: #f7a600;
     --clr-6: #98d32b;
+    --clr-7: #d2d4d1;
 }
 
 .top-part {
@@ -38,17 +39,43 @@
 
 
 svg {
-    padding: 5% 5% 5% 5%;
-    
+    padding: 5%;
 }
 
-.button-container {
+.adverts-container {
+    width: 100%;
+    font-size: calc(5px + 0.7vw);
+    display: flex;
+    flex-direction: row;
+    padding: 1% 5%;
+}
+
+.adverts-title {
+    float: left;
+    width: 15%;
+    color: var(--clr-1);
+    background-color: var(--clr-4);
+    padding: 0.80%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.adverts-content {
+    float: right;
+    width: 85%;
+    color: var(--clr-3);
+    background-color: var(--clr-7);
+    padding: 0.80%;
+    padding-left: 3%;
+}
+
+.buttons-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    grid-gap: 2%;
-    padding: 2% 3% 2% 3%;
+    grid-gap: 4%;
+    padding: 3% 5% 3% 5%;
     height: calc(11vw + 2vmin);
 }
 
@@ -83,7 +110,6 @@ svg {
     width: 100%;
     display: inline-flex;
     cursor: pointer;
-    margin: 10px;
     text-decoration: none;
     border-top: 10px solid var(--clr-3);
     font-weight: 400;
