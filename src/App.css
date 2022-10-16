@@ -1,30 +1,37 @@
 
+:root {
+    --clr-1: #ffffff;
+    --clr-2: #d3e9ec;
+    --clr-3: #494b4c;
+    --clr-4: #4495d7;
+}
+
 .top-part {
-    background-color: #234c9f;
+    background-color: var(--clr-4);
+    color: var(--clr-1);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
 }
   
 .middle-part {
-    background-color: #d3e9ec;
+    background-color: var(--clr-2);
+    color: var(--clr-3);
     font-size: calc(10px + 2vmin);
-    color: #484a4b;
 }
-  
+
 .bottom-part {
-    background-color: #484a4b;
+    background-color: var(--clr-3);
+    color: var(--clr-1);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
 }
 
 
@@ -41,45 +48,50 @@ svg {
     justify-content: space-evenly;
     grid-gap: 2%;
     padding: 2% 3% 2% 3%;
-    height: 12vw;
+    height: calc(11vw + 2vmin);
 }
 
 .button-icon {
 
     width: 45%;
-    padding: 7%;
+    padding: 5% 0% 5% 15%;
 }
 
 .button-text {
 
     width: 55%;
     position: relative;
-    top: 40%;
-    right: -5%;
-    font-size:larger;
     text-align: left;
-    font-size: 1.4vw;
-    font-weight: 300;
+    font-size: calc(1vw + 1vmin);
+    display: flex;
+    align-items:center;
+    margin-left: 15px;
+    line-height: 120%;
 }
 
 .button-text-teacher {
-    top: 28% !important;
+
 }
 
 .menu-button {
-    background: #ffffff;
-    color: #494b4c;
-    fill: #494b4c;
+    background-color: var(--clr-1);
+    color: var(--clr-3);
+    fill: var(--clr-3);
     overflow: hidden;
     width: 100%;
     display: inline-flex;
     cursor: pointer;
     margin: 10px;
     text-decoration: none;
+    border-top: 10px solid var(--clr-3);
+    font-weight: 400;
 }
 
 .menu-button:hover, .menu-button:focus {
-    background: #4495d7;
-    color: #ffffff;
-    fill: #ffffff;
+    background-color: var(--clr-4);
+    color: var(--clr-1);
+    fill: var(--clr-1);
+    border-top: 10px solid var(--clr-4);
+    font-weight: bolder;
 }
+
