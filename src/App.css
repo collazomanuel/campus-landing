@@ -47,12 +47,12 @@ svg {
     font-size: calc(5px + 0.7vw);
     display: flex;
     flex-direction: row;
-    padding: 1% 5%;
+    padding: 3% 5%;
 }
 
 .adverts-title {
     float: left;
-    width: 15%;
+    width: 10%;
     color: var(--clr-1);
     background-color: var(--clr-4);
     padding: 0.80%;
@@ -62,7 +62,7 @@ svg {
 
 .adverts-content {
     float: right;
-    width: 85%;
+    width: 90%;
     color: var(--clr-3);
     background-color: var(--clr-7);
     padding: 0.80%;
@@ -76,6 +76,7 @@ svg {
     justify-content: space-evenly;
     grid-gap: 4%;
     padding: 3% 5% 3% 5%;
+    margin: -4% 0% 0% 0%;
     height: calc(11vw + 2vmin);
 }
 
