@@ -1,17 +1,20 @@
 
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-import Carousel from './components/Carousel'
+import Slider from './components/Slider'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
+
+//
+// https://pm2.keymetrics.io/
+//
 
 const App = () => {
 
   return (
     <div>
+      <Slider />
       <Menu />
-      <Carousel />
       <Footer />
     </div>
   )
