@@ -5,6 +5,8 @@ import Carousel from 'react-bootstrap/Carousel'
 import '../App.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
+import Icon from './Icon'
+
 const Slider = () => {
 
   const sliderStyle = 'top-part'
@@ -14,15 +16,16 @@ const Slider = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="./img/fiuba-carousel-bg-1.jpg"
+            className="d-block w-100 slider-image"
+            src="./img/fiuba-carousel-bg-1-colorized.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <div className='title'><Icon type={'Touch'}/><div className='title-text'>Campus</div></div>
+            <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
           </Carousel.Caption>
         </Carousel.Item>
+        {/*
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -49,7 +52,9 @@ const Slider = () => {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+        */}
       </Carousel>
+
 
     </div>
   )

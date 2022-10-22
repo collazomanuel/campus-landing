@@ -12,7 +12,6 @@
 .top-part {
     background-color: var(--clr-4);
     color: var(--clr-1);
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,16 +25,7 @@
     font-size: calc(10px + 2vmin);
 }
 
-.bottom-part {
-    background-color: var(--clr-3);
-    color: var(--clr-1);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-}
+
 
 
 svg {
@@ -67,6 +57,16 @@ svg {
     background-color: var(--clr-7);
     padding: 0.80%;
     padding-left: 3%;
+}
+
+.adverts-content a {
+    text-decoration: none;
+    color: var(--clr-3);
+}
+
+.adverts-content a:hover {
+    text-decoration: none;
+    color: var(--clr-4);
 }
 
 .buttons-container {
@@ -141,3 +141,82 @@ svg {
     background-color: var(--clr-4);
     border-top: 10px solid var(--clr-4);
 }
+
+
+
+
+
+
+.button-icon {
+    width: 45%;
+    padding: 5% 0% 5% 15%;
+}
+
+.title {
+    text-align:center;
+    font-size: 5vw;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.title-text {
+
+    display: inline-block;
+}
+
+
+.touch-icon {
+
+    fill: var(--clr-1);
+    color: var(--clr-1);
+    padding: 0% 0% 0% 0%;
+    margin-bottom: 10%;
+    display: inline-block;
+    width: 11vw;
+    
+}
+
+.subtitle {
+    text-align:center;
+    font-size: 2vw;
+    display: inline-block;
+    font-weight: light;
+    width: 80%;
+    padding-bottom: 4%;
+}
+
+
+
+.cetec-icon {
+    width: 60%;
+    padding: 2%;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+
+
+
+.bottom-part {
+    background-color: var(--clr-3);
+    color: var(--clr-1);
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    display: inline-block;
+    height: calc(10px+12vw);
+}
+
+.footer-text {
+    font-size: calc(4px + 0.7vw);
+    margin: 3vw;
+    font-weight: lighter;
+    line-height: 1vw;
+    float: left;
+}
+
+.footer-image {
+    float: right;
+    margin: 15px;
+    max-width: calc(26% + 30px);
+    margin-right: 2%;
+}
+
