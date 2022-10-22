@@ -9,7 +9,7 @@ import Icon from './Icon'
 
 const Slider = () => {
 
-  const sliderStyle = 'top-part'
+  const sliderStyle = 'top-part slider'
 
   return (
     <div className={sliderStyle}>
@@ -25,34 +25,30 @@ const Slider = () => {
             <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
           </Carousel.Caption>
         </Carousel.Item>
-        {/*
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./img/fiuba-carousel-bg-2.jpg"
+            src="./img/fiuba-carousel-bg-2-colorized.jpg"
             alt="Second slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className='title'><Icon type={'Touch'}/><div className='title-text'>Campus</div></div>
+            <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./img/fiuba-carousel-bg-3.jpg"
+            src="./img/fiuba-carousel-bg-3-colorized.jpg"
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <div className='title'><Icon type={'Touch'}/><div className='title-text'>Campus</div></div>
+            <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
           </Carousel.Caption>
         </Carousel.Item>
-        */}
       </Carousel>
 
 

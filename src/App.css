@@ -96,7 +96,7 @@ svg {
     width: 55%;
     position: relative;
     text-align: left;
-    font-size: calc(1vw + 1vmin);
+    font-size: calc(1.2vw + 2px);
     display: flex;
     align-items:center;
     margin-left: 15px;
@@ -157,13 +157,13 @@ svg {
     font-size: 5vw;
     display: inline-block;
     font-weight: bold;
+    margin-bottom: 2vw;
 }
 
 .title-text {
 
     display: inline-block;
 }
-
 
 .touch-icon {
 
@@ -185,16 +185,12 @@ svg {
     padding-bottom: 4%;
 }
 
-
-
 .cetec-icon {
     width: 60%;
     padding: 2%;
     margin-left: 20%;
     margin-top: -2%;
 }
-
-
 
 .bottom-part {
     background-color: var(--clr-3);
@@ -220,3 +216,21 @@ svg {
     margin-right: 2%;
 }
 
+.slider-image {
+
+    width: 100%;
+    overflow: hidden;
+    max-height: 50%;
+}
+
+.carousel .carousel-indicators button {
+    background-color: transparent;
+    border: 1px solid var(--clr-1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel .carousel-indicators button.active {
+    background-color: var(--clr-1);
+}
