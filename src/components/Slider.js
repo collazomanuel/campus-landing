@@ -35,10 +35,13 @@ const Slider = () => {
             src="./img/fiuba-carousel-bg-2-colorized.jpg"
             alt="Second slide"
           />
-
           <Carousel.Caption>
             <div className='title'><Icon type={'Touch'}/><div className='title-text'>Campus</div></div>
-            <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
+            <div className='subtitle'>
+              Toda la oferta educativa de la<br/>
+              Facultad de Ingeniería de la Universidad de Buenos Aires<br/>
+              en un mismo espacio
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -47,10 +50,13 @@ const Slider = () => {
             src="./img/fiuba-carousel-bg-3-colorized.jpg"
             alt="Third slide"
           />
-
           <Carousel.Caption>
             <div className='title'><Icon type={'Touch'}/><div className='title-text'>Campus</div></div>
-            <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
+            <div className='subtitle'>
+              Toda la oferta educativa de la<br/>
+              Facultad de Ingeniería de la Universidad de Buenos Aires<br/>
+              en un mismo espacio
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

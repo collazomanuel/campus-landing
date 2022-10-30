@@ -23,15 +23,16 @@
 
 .title {
     text-align:center;
-    font-size: 5vw;
+    font-size: 8.5vw;
     display: inline-block;
     font-weight: bold;
-    margin-bottom: 2vw;
+    margin-bottom: 0vw;
+    width: 100%;
 }
 
 .title-text {
-
     display: inline-block;
+    margin-left: 2%;
 }
 
 .touch-icon {
@@ -39,19 +40,20 @@
     fill: var(--clr-1);
     color: var(--clr-1);
     padding: 0% 0% 0% 0%;
-    margin-bottom: 10%;
+    margin-bottom: 2vw;
     display: inline-block;
-    width: 11vw;
-    
+    width: 9vw;
 }
 
 .subtitle {
     text-align:center;
-    font-size: 2vw;
+    font-size: 2.21vw;;
     display: inline-block;
     font-weight: light;
-    width: 80%;
-    padding-bottom: 4%;
+    width: 100%;
+    padding-bottom: 10.6%;
+    line-height: 3.15vw;
+
 }
 
 .slider-image {
@@ -63,10 +65,11 @@
 
 .carousel .carousel-indicators button {
     background-color: transparent;
-    border: 1px solid var(--clr-1);
+    border: 2px solid var(--clr-1);
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 0.8vw;
+    height: 0.8vw;
+    margin-bottom: 2.9%;
 }
 
 .carousel .carousel-indicators button.active {
@@ -88,7 +91,7 @@
     align-content: center;
     flex-direction: row;
     width: 100%;
-    font-size: 1vw;
+    font-size: calc(0px + 1.1vw);
     padding: 0%;
 }
 
