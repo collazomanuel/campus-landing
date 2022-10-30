@@ -11,7 +11,7 @@ const Menu = () => {
         <div className='adverts-title'>
           ANUNCIOS
         </div>
-        <div className='adverts-content'>
+        <div className='adverts-content cut-text'>
           Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a>
         </div>
       </div>

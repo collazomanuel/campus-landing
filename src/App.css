@@ -2,12 +2,14 @@
 :root {
     --clr-1: #ffffff;
     --clr-2: #d3e9ec;
-    --clr-3: #494b4c;
-    --clr-4: #4495d7;
-    --clr-5: #f7a600;
-    --clr-6: #98d32b;
-    --clr-7: #d2d4d1;
+    --clr-3: #373a36;
+    --clr-4: #008bce;
+    --clr-5: #f2a900;
+    --clr-6: #bfb800;
+    --clr-7: #d9d9d6;
 }
+
+/*===================================================================*/
 
 .top-part {
     background-color: var(--clr-4);
@@ -17,139 +19,6 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-}
-  
-.middle-part {
-    background-color: var(--clr-2);
-    color: var(--clr-3);
-    font-size: calc(10px + 2vmin);
-}
-
-
-
-
-svg {
-    padding: 5%;
-}
-
-.adverts-container {
-    width: 100%;
-    font-size: calc(5px + 0.7vw);
-    display: flex;
-    flex-direction: row;
-    padding: 3% 5%;
-}
-
-.adverts-title {
-    float: left;
-    width: 10%;
-    color: var(--clr-1);
-    background-color: var(--clr-4);
-    padding: 0.80%;
-    font-weight: bold;
-    text-align: center;
-}
-
-.adverts-content {
-    float: right;
-    width: 90%;
-    color: var(--clr-3);
-    background-color: var(--clr-7);
-    padding: 0.80%;
-    padding-left: 3%;
-}
-
-.adverts-content a {
-    text-decoration: none;
-    color: var(--clr-3);
-}
-
-.adverts-content a:hover {
-    text-decoration: none;
-    color: var(--clr-4);
-}
-
-.buttons-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    grid-gap: 4%;
-    padding: 3% 5% 3% 5%;
-    margin: -4% 0% 0% 0%;
-    height: calc(11vw + 2vmin);
-}
-
-.button-icon {
-    width: 45%;
-    padding: 5% 0% 5% 15%;
-}
-
-.cetec-icon {
-    width: 60%;
-    padding: 2%;
-    margin-left: 20%;
-    margin-top: -2%;
-}
-
-.button-text {
-    width: 55%;
-    position: relative;
-    text-align: left;
-    font-size: calc(1.2vw + 2px);
-    display: flex;
-    align-items:center;
-    margin-left: 15px;
-    line-height: 120%;
-}
-
-.menu-button {
-    background-color: var(--clr-1);
-    color: var(--clr-3);
-    fill: var(--clr-3);
-    overflow: hidden;
-    width: 100%;
-    display: inline-flex;
-    cursor: pointer;
-    text-decoration: none;
-    border-top: 10px solid var(--clr-3);
-    font-weight: 400;
-}
-
-.menu-button:hover, .menu-button:focus {
-    color: var(--clr-1);
-    fill: var(--clr-1);
-    font-weight: bolder;
-}
-
-.book-button:hover, .book-button:focus {
-    background-color: var(--clr-5);
-    border-top: 10px solid var(--clr-5);
-}
-
-.hat-button:hover, .hat-button:focus {
-    background-color: var(--clr-6);
-    border-top: 10px solid var(--clr-6);
-}
-
-.teacher-button:hover, .teacher-button:focus {
-    background-color: var(--clr-4);
-    border-top: 10px solid var(--clr-4);
-}
-
-.cetec-button:hover, .cetec-button:focus {
-    background-color: var(--clr-4);
-    border-top: 10px solid var(--clr-4);
-}
-
-
-
-
-
-
-.button-icon {
-    width: 45%;
-    padding: 5% 0% 5% 15%;
 }
 
 .title {
@@ -185,37 +54,6 @@ svg {
     padding-bottom: 4%;
 }
 
-.cetec-icon {
-    width: 60%;
-    padding: 2%;
-    margin-left: 20%;
-    margin-top: -2%;
-}
-
-.bottom-part {
-    background-color: var(--clr-3);
-    color: var(--clr-1);
-    font-size: calc(10px + 2vmin);
-    width: 100%;
-    display: inline-block;
-    height: calc(10px+12vw);
-}
-
-.footer-text {
-    font-size: calc(4px + 0.7vw);
-    margin: 3vw;
-    font-weight: lighter;
-    line-height: 1vw;
-    float: left;
-}
-
-.footer-image {
-    float: right;
-    margin: 15px;
-    max-width: calc(26% + 30px);
-    margin-right: 2%;
-}
-
 .slider-image {
 
     width: 100%;
@@ -233,4 +71,379 @@ svg {
 
 .carousel .carousel-indicators button.active {
     background-color: var(--clr-1);
+}
+
+/*===================================================================*/
+
+.middle-part {
+    background-color: var(--clr-2);
+    color: var(--clr-3);
+    font-size: calc(10px + 2vmin);
+    padding: 2.5% 3%;
+}
+
+.adverts-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1vw;
+    padding: 0%;
+}
+
+.adverts-title {
+    display: grid;
+    place-items: center;
+    float: left;
+    width: 8%;
+    color: var(--clr-1);
+    background-color: var(--clr-4);
+    font-weight: bold;
+    text-align: center;
+    align-items: middle;
+}
+
+.adverts-content {
+    float: right;
+    width: 92%;
+    color: var(--clr-3);
+    background-color: var(--clr-7);
+    padding: 0.7%;
+    padding-left: 1.5%;
+}
+
+.cut-text {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 100%; 
+    white-space: nowrap;
+}
+
+.adverts-content a {
+    text-decoration: none;
+    color: var(--clr-3);
+}
+
+.adverts-content a:hover {
+    text-decoration: none;
+    color: var(--clr-4);
+}
+
+.buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-gap: 4%;
+    padding-top: 2.5%;
+    height: 8.8vw;
+}
+
+.menu-button {
+    background-color: var(--clr-1);
+    color: var(--clr-3);
+    fill: var(--clr-3);
+    overflow: hidden;
+    width: 100%;
+    display: inline-flex;
+    cursor: pointer;
+    text-decoration: none;
+    border-top: 10px solid var(--clr-3);
+    font-weight: 400;
+}
+
+.button-icon {
+    width: 50%;
+    padding: 5% 0%;
+    margin-left: 15%;
+    padding-right: 5%;
+}
+
+.cetec-icon {
+    width: 60%;
+    padding: 4%;
+    margin-left: 20%;
+}
+
+.button-text {
+    width: 50%;
+    position: relative;
+    text-align: left;
+    font-size: calc(1.6vw + 2px);
+    display: flex;
+    align-items:center;
+    line-height: 120%;
+    margin-right: 20%;
+}
+
+.menu-button:hover, .menu-button:focus {
+    color: var(--clr-1);
+    fill: var(--clr-1);
+    font-weight: bolder;
+}
+
+.book-button:hover, .book-button:focus {
+    background-color: var(--clr-5);
+    border-top: 10px solid var(--clr-5);
+}
+
+.hat-button:hover, .hat-button:focus {
+    background-color: var(--clr-6);
+    border-top: 10px solid var(--clr-6);
+}
+
+.teacher-button:hover, .teacher-button:focus {
+    background-color: var(--clr-4);
+    border-top: 10px solid var(--clr-4);
+}
+
+.cetec-button:hover, .cetec-button:focus {
+    background-color: var(--clr-4);
+    border-top: 10px solid var(--clr-4);
+}
+
+/*===================================================================*/
+
+.bottom-part {
+    background-color: var(--clr-3);
+    color: var(--clr-1);
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    display: inline-block;
+    height: calc(10px+12vw);
+}
+
+.footer-text {
+    font-size: calc(4px + 0.7vw);
+    font-weight: lighter;
+    line-height: 1vw;
+    float: left;
+    padding: 4%;
+    vertical-align: middle;
+}
+
+.footer-text-bold {
+    font-weight: bold;
+}
+
+.footer-image {
+    float: right;
+    padding: 2% 3% 2% 2%;
+    max-width: calc(26% + 30px);
+}
+
+/*===================================================================*/
+/*===================================================================*/
+/*===================================================================*/
+
+@media (max-width: 768px) {
+
+/*===================================================================*/
+
+.top-part {
+    background-color: var(--clr-4);
+    color: var(--clr-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.title {
+    text-align:center;
+    font-size: 5vw;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+
+.title-text {
+
+    display: inline-block;
+}
+
+.touch-icon {
+
+    fill: var(--clr-1);
+    color: var(--clr-1);
+    padding: 0% 0% 0% 0%;
+    margin-bottom: 0%;
+    display: block;    
+}
+
+.subtitle {
+    text-align:center;
+    font-size: 2vw;
+    display: inline-block;
+    font-weight: light;
+    width: 80%;
+    padding-bottom: 4%;
+}
+
+.slider-image {
+
+    width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.carousel {
+
+    overflow: hidden;
+}
+
+
+.carousel .carousel-indicators button {
+    background-color: transparent;
+    border: 1px solid var(--clr-1);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel .carousel-indicators button.active {
+    background-color: var(--clr-1);
+}
+
+/*===================================================================*/
+
+    .middle-part {
+        background-color: var(--clr-2);
+        color: var(--clr-3);
+        font-size: calc(10px + 2vmin);
+    }
+    
+    .adverts-container {
+        width: 100%;
+        font-size: calc(8px + 1vw);
+        display: flex;
+        flex-direction: row;
+        padding: 3%;
+    }
+    
+    .adverts-title {
+        float: left;
+        width: 25%;
+        color: var(--clr-1);
+        background-color: var(--clr-4);
+        padding: 0.80%;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .adverts-content {
+        float: right;
+        width: 75%;
+        color: var(--clr-3);
+        background-color: var(--clr-7);
+        padding: 0.80%;
+        padding-left: 3%;
+    }
+
+    .cut-text {
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        width: 100%; 
+        white-space: nowrap;
+    }
+    
+    .adverts-content a {
+        text-decoration: none;
+        color: var(--clr-3);
+    }
+    
+    .adverts-content a:hover {
+        text-decoration: none;
+        color: var(--clr-4);
+    }
+    
+    .buttons-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        grid-gap: 0.4%;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
+        height: calc(38vw);
+        border-left: #373a36;
+        border-right: #373a36;
+        background-color: var(--clr-3);
+    }
+    
+    .button-icon {
+        width: 100%;
+        padding: 25% 25% 0% 25%;
+        height: 50%;
+        text-align: center;
+        
+    }
+    
+    .cetec-icon {
+        width: 100%;
+        padding: 5%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    
+    .button-text {
+        width: 100%;
+        text-align: center;
+        font-size: calc(2vw + 5px);
+        align-items: flex-start;
+        line-height: 120%;
+        display: block;
+        height: 50%;
+        margin: auto;
+        padding: 8% 5%;
+    }
+    
+    .menu-button {
+        background-color: var(--clr-1);
+        color: var(--clr-3);
+        fill: var(--clr-3);
+        overflow: hidden;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        border-top: 10px solid var(--clr-3);
+        font-weight: 400;
+
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+
+        height: 100%;
+    }
+    
+    .menu-button:hover, .menu-button:focus {
+        color: var(--clr-1);
+        fill: var(--clr-1);
+        font-weight: bolder;
+    }
+    
+    .book-button:hover, .book-button:focus {
+        background-color: var(--clr-5);
+        border-top: 10px solid var(--clr-5);
+    }
+    
+    .hat-button:hover, .hat-button:focus {
+        background-color: var(--clr-6);
+        border-top: 10px solid var(--clr-6);
+    }
+    
+    .teacher-button:hover, .teacher-button:focus {
+        background-color: var(--clr-4);
+        border-top: 10px solid var(--clr-4);
+    }
+    
+    .cetec-button:hover, .cetec-button:focus {
+        background-color: var(--clr-4);
+        border-top: 10px solid var(--clr-4);
+    }
+
+/*===================================================================*/
+
 }

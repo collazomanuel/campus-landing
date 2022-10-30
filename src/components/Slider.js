@@ -22,7 +22,11 @@ const Slider = () => {
           />
           <Carousel.Caption>
             <div className='title'><Icon type={'Touch'}/><div className='title-text'>Campus</div></div>
-            <div className='subtitle'>Toda la oferta educativa de la Facultad de Ingeniería de la Universidad de Buenos Aires en un mismo espacio</div>
+            <div className='subtitle'>
+              Toda la oferta educativa de la<br/>
+              Facultad de Ingeniería de la Universidad de Buenos Aires<br/>
+              en un mismo espacio
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
