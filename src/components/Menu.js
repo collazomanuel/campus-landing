@@ -1,6 +1,8 @@
 
 import '../App.css'
 
+import Marquee from 'react-fast-marquee'
+
 import MenuButton from './MenuButton'
 
 const Menu = () => {
@@ -12,7 +14,9 @@ const Menu = () => {
           ANUNCIOS
         </div>
         <div className='adverts-content cut-text'>
-          Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a>
+          <Marquee gradient={false} speed={40}>
+            <span>Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a></span>
+          </Marquee>
         </div>
       </div>
       <div className='buttons-container'>
