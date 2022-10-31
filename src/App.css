@@ -261,25 +261,28 @@
     }
 
     .title {
-        display: block;
-        padding-bottom: 20%;
-        font-size: larger;
-        font-size: 12vw;
+        display: inline-block;
+        font-size: 14vw;
     }
 
     .subtitle {
-        display: block;
-        height: 80%;
-        width: 60%;
+        display: inline-block;
+        width: 85%;
         text-align: center;
+        font-size: 4vw;
+        line-height: 6vw;
+        margin-bottom: 10%;
     }
-    
-
     
     .touch-icon {
 
+        width: 20%;
+        padding-top: 15%;
     }
 
+    .title-text {
+        display: block;
+    }
 
 
     .carousel .carousel-indicators button {
@@ -295,7 +298,8 @@
 
 
     .carousel-control-next, .carousel-control-prev {
-        margin: 40vw 3vw;
+        margin: 0vw 1vw;
+        height: 115%;
     }
     
     .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -311,15 +315,17 @@
 
     .adverts-container {
         font-size: calc(8px + 1vw);
-        padding: 2.5% 3%;
+        padding: 3% 3%;
     }
 
     .adverts-title {
-        width: 15%;
+        width: 20%;
+        padding: 1.5%;
     }
 
     .adverts-content {
-        width: 85%;
+        width: 80%;
+        padding: 1.5%;
         padding-left: 3%;
     }
 
