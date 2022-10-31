@@ -7,6 +7,11 @@
     --clr-6: #bfb800;
     --clr-7: #d9d9d6;
 }
+
+.app {
+    overflow-x: hidden;
+}
+
 /*===================================================================*/
 .top-part {
     background-color: var(--clr-4);
@@ -193,6 +198,7 @@
     width: 100%;
     display: inline-block;
     height: calc(10px+12vw);
+    margin: 0% 0% 0% 0%;
 }
 .footer-text {
     font-size: calc(4px + 0.7vw);
