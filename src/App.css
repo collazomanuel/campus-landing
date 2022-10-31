@@ -377,4 +377,27 @@
 
     /*===================================================================*/
 
+
+    .bottom-part {
+        width: 100%;
+        display: flex;
+    }
+    
+    .footer-text {
+        font-size: calc(5px + 0.8vw);
+        line-height: 0.8vw;
+        font-weight: lighter;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5% 3% 3% 3%;
+    }
+    
+    .footer-image {
+        position: absolute;
+        visibility:hidden;
+        display:none;
+    }
+
 }
