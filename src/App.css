@@ -64,10 +64,10 @@
 
 .carousel .carousel-indicators button {
     background-color: transparent;
-    border: 2px solid var(--clr-1);
+    border: 1px solid var(--clr-1);
     border-radius: 50%;
-    width: 0.8vw;
-    height: 0.8vw;
+    width: 1vw;
+    height: 1vw;
     margin-bottom: 2.9%;
 }
 
@@ -255,17 +255,52 @@
 
 @media (max-width: 768px) {
 
+
+    .slider-text {
+        height: 100%;
+    }
+
     .title {
         display: block;
+        padding-bottom: 20%;
+        font-size: larger;
+        font-size: 12vw;
+    }
+
+    .subtitle {
+        display: block;
+        height: 80%;
+        width: 60%;
+        text-align: center;
     }
     
-    .title-text {
-        display: block;
-    }
+
     
     .touch-icon {
-        position:relative;
-        top: 5vw;
+
+    }
+
+
+
+    .carousel .carousel-indicators button {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .slider-image {
+        overflow: hidden;
+        object-fit: cover;
+        height: 109vw;
+    }
+
+
+    .carousel-control-next, .carousel-control-prev {
+        margin: 40vw 62vw;
+    }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        height: 8vw !important;
+        width: 8vw !important;
     }
     
     /*===================================================================*/
