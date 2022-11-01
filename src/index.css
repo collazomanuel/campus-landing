@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: /*'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',*/ Helvetica, sans-serif;
+  font-family: /*'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',*/ Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
