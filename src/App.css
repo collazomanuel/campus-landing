@@ -76,7 +76,7 @@ body {
 }
 .carousel-control-next, .carousel-control-prev {
     padding: 0%;
-    margin: -4%;
+    margin: 0% -4%;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
@@ -267,13 +267,14 @@ body {
         height: 109vw;
     }
     .carousel-control-next, .carousel-control-prev {
-        margin: 0vw 1vw;
-        height: 115%;
+        margin: 0vw 1vw ;
+        height: 100%; /*115%*/
     }
     
     .carousel-control-next-icon, .carousel-control-prev-icon {
         height: 8vw !important;
         width: 8vw !important;
+        margin-top: 100%;
     }
     
     /*===================================================================*/
