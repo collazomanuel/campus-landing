@@ -14,8 +14,14 @@ const Menu = () => {
           ANUNCIOS
         </div>
         <div className='adverts-content cut-text'>
-          <Marquee gradient={false} speed={40}>
-            <span>Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a></span>
+          <Marquee
+            delay={2}
+            gradient={false}
+            speed={100}
+          >
+            <span>
+              Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a>
+            </span>
           </Marquee>
         </div>
       </div>
