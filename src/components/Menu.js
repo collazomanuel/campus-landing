@@ -17,7 +17,6 @@ const Menu = () => {
           <Marquee
             delay={2}
             gradient={false}
-            speed={100}
           >
             <span>
               Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a>
