@@ -167,7 +167,8 @@ body {
 .button-icon {
     height: 100%;
     padding: 5% 7% 5% 0%;
-    width: min-content;
+    width: max-content;
+
 }
 
 .cetec-icon {
