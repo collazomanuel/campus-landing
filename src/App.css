@@ -4,7 +4,7 @@
     --clr-3: #373a36;
     --clr-4: #008bce;
     --clr-5: #f2a900;
-    --clr-6: #99d420;  /*--clr-6: #99FF00;*/ /* --clr-6: #bfb800; */
+    --clr-6: #b3c50e; /*--clr-6: #99FF00;*/ /* --clr-6: #bfb800;*/ /*--clr-6: #99d420;*/
     --clr-7: #d9d9d6;
     
 }
@@ -35,15 +35,16 @@ body {
 }
 .title-text {
     display: inline-block;
-    margin-left: 2%;
+    padding-left: 3%;
 }
 .touch-icon {
     fill: var(--clr-1);
     color: var(--clr-1);
-    padding: 0% 0% 0% 0%;
-    margin-bottom: 2vw;
+    padding: 0% 0% 2% 0%;
     display: inline-block;
-    width: 9vw;
+    width: 5vw;
+    height: fit-content;
+
 }
 .subtitle {
     text-align:center;
@@ -155,32 +156,35 @@ body {
     fill: var(--clr-3);
     overflow: hidden;
     width: 100%;
-    display: inline-flex;
     cursor: pointer;
     text-decoration: none;
     border-top: 10px solid var(--clr-3);
     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button-icon {
-    width: 50%;
-    padding: 5% 0%;
-    margin-left: 15%;
-    padding-right: 5%;
+    height: 100%;
+    padding: 5% 7% 5% 0%;
+    width: min-content;
 }
+
 .cetec-icon {
     width: 60%;
-    padding: 4%;
-    margin-left: 20%;
+    height: fit-content;
+    padding: 5%;
 }
 .button-text {
-    width: 50%;
+
     position: relative;
     text-align: left;
     font-size: calc(1.6vw + 2px);
     display: flex;
     align-items:center;
     line-height: 120%;
-    margin-right: 20%;
+    width: min-content;
+
 }
 .menu-button:hover, .menu-button:focus {
     color: var(--clr-1);
@@ -251,9 +255,11 @@ body {
     
     .touch-icon {
         width: 20%;
-        padding-top: 15%;
+        padding-bottom: 0%;
     }
     .title-text {
+        padding: 0%;
+        margin: 0%;
         display: block;
     }
     .carousel .carousel-indicators button {
