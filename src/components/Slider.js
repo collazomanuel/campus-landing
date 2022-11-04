@@ -13,7 +13,6 @@ const Slider = () => {
   const secondImage = './img/fiuba-carousel-bg-lh-colorized.png'
   const thirdImage = './img/fiuba-carousel-bg-cu-colorized.png'
 
-
   const sliderStyle = 'top-part slider'
 
   return (
