@@ -11,7 +11,15 @@
 
 /*===================================================================*/
 
+html {
+    height: 100vh;
+    height: -moz-available;
+    height: -webkit-fill-available;
+}
+
 body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow-x: hidden;
 }
 
@@ -214,7 +222,7 @@ body {
     font-size: calc(10px + 2vmin);
     width: 100%;
     display: table;
-    margin: 0% 0% -10% 0%; /* fix whitespace below footer */
+    margin: 0% 0% 0% 0%; /* fix whitespace below footer */
 }
 .footer-text {
     font-size: calc(4px + 0.7vw);
@@ -359,7 +367,7 @@ body {
         width: 100%;
     }
     .footer-image {
-        position: absolute;
+        position:fixed;
         visibility:hidden;
         display:none;
     }
