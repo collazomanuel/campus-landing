@@ -36,28 +36,28 @@ body {
 .title {
     text-align:center;
     font-size: 8.5vw;
-    display: inline-block;
+    display: flex;
     font-weight: bold;
     margin-bottom: 0vw;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .title-text {
-    display: inline-block;
+    text-align:center;
     padding-left: 3%;
 }
 .touch-icon {
     fill: var(--clr-1);
     color: var(--clr-1);
     padding: 0% 0% 2% 0%;
-    display: inline-block;
     width: 5vw;
     height: fit-content;
 
 }
 .subtitle {
     text-align:center;
-    font-size: 2.21vw;;
-    display: inline-block;
+    font-size: 2.21vw;
     font-weight: light;
     width: 100%;
     padding-bottom: 10%;
@@ -90,7 +90,6 @@ body {
     color: var(--clr-1);
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
     height: 5vw !important;
@@ -114,15 +113,14 @@ body {
     padding: 0%;
 }
 .adverts-title {
-    display: grid;
-    place-items: center;
-    float: left;
+    display: flex;
+    align-items: center;
     width: 8%;
     color: var(--clr-1);
     background-color: var(--clr-4);
     font-weight: bold;
-    text-align: center;
     align-items: middle;
+    justify-content: center;
 }
 .adverts-content {
     float: right;
@@ -221,30 +219,25 @@ body {
     color: var(--clr-1);
     font-size: calc(10px + 2vmin);
     width: 100%;
-    display: table;
-    margin: 0% 0% 0% 0%; /* fix whitespace below footer */
+    display: flex;
+    justify-content: space-between;
 }
 .footer-text {
     font-size: calc(4px + 0.7vw);
     font-weight: lighter;
     line-height: 1vw;
-    display: table-cell;
     vertical-align: middle;
     width: 50%;
-    padding: 2%;
-    padding-bottom: 1%;
-
+    padding: 3%;
 }
 .footer-text-bold {
     font-weight: bold;
 }
 .footer-image {
-    float: right;
-    display: table-cell;
-    vertical-align: middle;
+
     padding: 0%;
     padding-right: 3%;
-    max-width: 50%;
+    max-width: 30%;
 }
 /*===================================================================*/
 /*===================================================================*/
@@ -254,18 +247,23 @@ body {
         height: 100%;
     }
     .title {
-        display: inline-block;
         font-size: 14vw;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2%;
     }
     .subtitle {
-        display: inline-block;
-        width: 85%;
+
         font-size: 4vw;
         line-height: 6vw;
         margin-bottom: 10%;
         padding-top: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
     }
-    
     .touch-icon {
         width: 20%;
         padding-bottom: 0%;
@@ -273,7 +271,6 @@ body {
     .title-text {
         padding: 0%;
         margin: 0%;
-        display: block;
     }
     .carousel .carousel-indicators button {
         width: 1.8vw;
@@ -322,9 +319,8 @@ body {
     }
     .menu-button {
         height: 100%;
-        display: inline-block;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto;
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
     .button-icon {
@@ -337,9 +333,10 @@ body {
     }
     .button-text {
         width: 80%;
-        text-align: center;
         font-size: calc(2vw + 5px);
-        display: block;
+        align-items: baseline;
+        justify-content: center;
+        text-align: center;
         height: 36%;
         margin: auto;
     }
@@ -354,6 +351,7 @@ body {
         width: 100%;
         margin: 0%;
         padding: 0%;
+        display: flex;
     }
     .footer-text {
         font-size: calc(5px + 0.8vw);
@@ -363,12 +361,11 @@ body {
         left: 50%;
         transform: translateX(-50%);
         padding: 5% 3% 3% 3%;
-        display: inline-block;
         width: 100%;
     }
     .footer-image {
-        position:fixed;
-        visibility:hidden;
-        display:none;
+        position: fixed;
+        visibility: hidden;
+        display: none;
     }
 }
