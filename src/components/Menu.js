@@ -1,11 +1,17 @@
 
 import '../App.css'
 
-import Marquee from 'react-fast-marquee'
-
 import MenuButton from './MenuButton'
 
+import Linkify from 'react-linkify'
+
 const Menu = () => {
+
+  const announcement1 = 'Conocé los cursos de posgrado en Estabilidad en https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2'
+  const announcement2 = 'La FIUBA, presente en el XV COINI (más información en https://coiniarg.com)'
+  const announcement3 = 'Nanomateriales y nanotecnología: La FIUBA invita a la disertación que ofrecerá el Dr. Galo Soler Illia sobre el tema'
+
+  const marqueeText = announcement1 + ' // ' + announcement2 + ' // ' + announcement3 + ' // '
 
   return (
     <div className='middle-part'>
@@ -14,14 +20,11 @@ const Menu = () => {
           ANUNCIOS
         </div>
         <div className='adverts-content cut-text'>
-          <Marquee
-            delay={2}
-            gradient={false}
-          >
-            <div>
-              Conocé los cursos de posgrado en Estabilidad en <a href='/'>https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2</a>
+          <div className='cssmarquee'>
+            <div style={{ animation: 'cssmarquee ' + marqueeText.length/10 +'s linear infinite' }}>
+              <Linkify>{marqueeText}</Linkify>
             </div>
-          </Marquee>
+          </div>
         </div>
       </div>
       <div className='buttons-container'>

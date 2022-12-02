@@ -24,6 +24,30 @@ body {
 }
 
 /*===================================================================*/
+
+.cssmarquee {
+    overflow: hidden;
+    position: relative;
+  }
+  .cssmarquee div {
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    transform:translateX(100%);
+
+  }
+  @keyframes cssmarquee {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+  }
+
+/*===================================================================*/
 .top-part {
     background-color: var(--clr-4);
     color: var(--clr-1);
