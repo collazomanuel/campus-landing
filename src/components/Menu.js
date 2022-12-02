@@ -11,7 +11,7 @@ const Menu = () => {
   const announcement2 = 'La FIUBA, presente en el XV COINI (más información en https://coiniarg.com)'
   const announcement3 = 'Nanomateriales y nanotecnología: La FIUBA invita a la disertación que ofrecerá el Dr. Galo Soler Illia sobre el tema'
 
-  const marqueeText = announcement1 + ' // ' + announcement2 + ' // ' + announcement3 + ' // '
+  const marqueeText = announcement1 + ' // ' + announcement2 + ' // ' + announcement3
 
   return (
     <div className='middle-part'>
