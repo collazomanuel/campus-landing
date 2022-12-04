@@ -10,13 +10,13 @@ import Icon from './Icon'
 const Slider = () => {
 
   const firstImage = './img/fiuba-carousel-bg-pc-colorized.png'
-  const secondImage = './img/fiuba-carousel-bg-lh-colorized.png'
-  const thirdImage = './img/fiuba-carousel-bg-cu-colorized.png'
+  //const secondImage = './img/fiuba-carousel-bg-lh-colorized.png'
+  //const thirdImage = './img/fiuba-carousel-bg-cu-colorized.png'
   //const firstImage = ''
   //const secondImage = ''
   //const thirdImage = ''
 
-  const sliderStyle = 'top-part slider'
+  const sliderStyle = 'top-part'
 
   return (
     <div className={sliderStyle}>
@@ -38,6 +38,7 @@ const Slider = () => {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
+        {/*
         <Carousel.Item>
           <img
             className="d-block w-100 slider-image"
@@ -72,9 +73,8 @@ const Slider = () => {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
+      */}
       </Carousel>
-
-
     </div>
   )
 }

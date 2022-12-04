@@ -53,9 +53,11 @@ body {
     color: var(--clr-1);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
+    height: 47vw;
+    position: relative;
+    z-index: -1;
 }
 .title {
     text-align:center;
@@ -68,7 +70,6 @@ body {
     justify-content: center;
 }
 .title-text {
-    text-align:center;
     padding-left: 3%;
 }
 .touch-icon {
@@ -77,14 +78,12 @@ body {
     padding: 0% 0% 2% 0%;
     width: 5vw;
     height: fit-content;
-
 }
 .subtitle {
     text-align:center;
     font-size: 2.21vw;
     font-weight: light;
     width: 100%;
-    padding-bottom: 10%;
     line-height: 3.15vw;
     margin-top: 0%;
     padding-top: 1%;
@@ -92,7 +91,7 @@ body {
 .slider-image {
     width: 100%;
     overflow: hidden;
-    max-height: 50%;
+    max-height: 100%;
 }
 .carousel .carousel-indicators button {
     background-color: transparent;
@@ -391,5 +390,25 @@ body {
         position: fixed;
         visibility: hidden;
         display: none;
+    }
+}
+
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 64/27) {
+
+    .top-part {
+        height: 67vh;
+    }
+    .middle-part {
+        height: 33vh;
+    }
+    .adverts-container {
+        padding-bottom: 2.5%;
+    }
+    .buttons-container {
+        padding-top: 0%;
+        height: 60%;
+    }
+    .button-icon {
+        height: 11vh;
     }
 }
