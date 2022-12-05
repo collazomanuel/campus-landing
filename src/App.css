@@ -8,9 +8,7 @@
     --clr-7: #d9d9d6;
     
 }
-
 /*===================================================================*/
-
 html {
     height: 100vh;
     height: -moz-available;
@@ -22,9 +20,7 @@ body {
     min-height: -webkit-fill-available;
     overflow-x: hidden;
 }
-
 /*===================================================================*/
-
 .cssmarquee {
     overflow: hidden;
     position: relative;
@@ -46,7 +42,6 @@ body {
     transform: translateX(-100%);
     }
   }
-
 /*===================================================================*/
 .top-part {
     background-color: var(--clr-4);
@@ -124,7 +119,6 @@ body {
     height: 5vw !important;
     width: 5vw !important;
 }
-
 /*===================================================================*/
 .middle-part {
     background-color: var(--clr-2);
@@ -158,6 +152,8 @@ body {
     background-color: var(--clr-7);
     padding: 0.7%;
     padding-left: 1.5%;
+    display: flex;
+    align-items: center;
 }
 .cut-text {
     text-overflow: ellipsis;
@@ -401,7 +397,6 @@ body {
         display: none;
     }
 }
-
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 64/27) {
 
     .top-part {
@@ -427,39 +422,51 @@ body {
         margin-top: -10vw;
     }
 }
-
 @media (min-aspect-ratio: 27/64) and (max-aspect-ratio: 1/1) and (max-width: 768px) {
 
     .top-part {
         height: 60vh;
+        padding-top: 10%;
     }
     .title {
-        font-size: 10vw;
+        font-size: calc(7vh + 4vw);
+
     }
     .subtitle {
 
-        font-size: 3.5vw;
-        padding-top: 2%;
+        font-size: calc(2vh + 1.5vw);
+        padding-top: 0%;
     }
     .touch-icon {
-        width: 20%;
-        padding-bottom: 0%;
+        width: calc(6vh + 4vw);
+        padding-top: -5vw;
     }
 
     .middle-part {
-        height: 40vh;
+        height: 30vh;
     }
     .adverts-container {
         padding: 2vh;
         height: 8vh;
     }
     .buttons-container {
-        height: 32vh;
+        height: 22vh;
+    }
+    .button-icon {
+        width: 80%;
+    }
+    .teacher-icon {
+        padding: 11%;
     }
     .slider-text {
         height: 80vw;
     }
     .carousel .carousel-indicators button {
-        transform: translateY(calc(70px - 23vw));
+        transform: translateY(calc(+50vh -3000px));
+    }
+    .bottom-part {
+        height: 10vh;
+        display: flex;
+        align-items: center;
     }
 }

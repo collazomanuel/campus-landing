@@ -17,7 +17,7 @@ const Icon = (props) => {
   case 'Hat':
     return (<HatIcon className={'button-icon'} />)
   case 'Teacher':
-    return (<TeacherIcon className={'button-icon'} />)
+    return (<TeacherIcon className={'button-icon teacher-icon'} />)
   case 'Cetec':
     return (<CetecIcon className={'cetec-icon'} />)
   case 'Touch':
