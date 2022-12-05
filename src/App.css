@@ -426,22 +426,31 @@ body {
 
     .top-part {
         height: 60vh;
-        padding-top: 10%;
+    }
+    .slider-image {
+        object-fit: cover;
+        height: 60vh;
+    }
+    .slider-text {
+        display: table-cell;
+        vertical-align: bottom;
     }
     .title {
-        font-size: calc(7vh + 4vw);
-
+        font-size: calc(6vh + 4vw);
+        padding-bottom: 0%;
     }
     .subtitle {
-
-        font-size: calc(2vh + 1.5vw);
+        font-size: calc(2vh + 1vw);
         padding-top: 0%;
+        padding-bottom: 0%;
+        margin-bottom: calc(10vh - 50px);
     }
     .touch-icon {
         width: calc(6vh + 4vw);
-        padding-top: -5vw;
     }
-
+    .carousel .carousel-indicators button {
+        margin-bottom: 2%;
+    }
     .middle-part {
         height: 30vh;
     }
@@ -461,9 +470,7 @@ body {
     .slider-text {
         height: 80vw;
     }
-    .carousel .carousel-indicators button {
-        transform: translateY(calc(+50vh -3000px));
-    }
+
     .bottom-part {
         height: 10vh;
         display: flex;
