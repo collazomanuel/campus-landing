@@ -272,6 +272,9 @@ body {
 /*===================================================================*/
 /*===================================================================*/
 @media (max-width: 768px) {
+    .top-part {
+        height: 109vw;
+    }
     .slider-text {
         height: 100%;
     }
@@ -285,7 +288,7 @@ body {
 
         font-size: 4vw;
         line-height: 6vw;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
         padding-top: 2%;
         margin-left: 0%;
         margin-right: 0%;
