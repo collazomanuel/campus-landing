@@ -428,28 +428,38 @@ body {
     }
 }
 
-@media (min-aspect-ratio: 27/64) and (max-aspect-ratio: 1/1) {
+@media (min-aspect-ratio: 27/64) and (max-aspect-ratio: 1/1) and (max-width: 768px) {
 
     .top-part {
         height: 60vh;
     }
+    .title {
+        font-size: 10vw;
+    }
+    .subtitle {
+
+        font-size: 3.5vw;
+        padding-top: 2%;
+    }
+    .touch-icon {
+        width: 20%;
+        padding-bottom: 0%;
+    }
+
     .middle-part {
         height: 40vh;
     }
     .adverts-container {
-        padding-bottom: 2.5%;
+        padding: 2vh;
+        height: 8vh;
     }
     .buttons-container {
-        padding-top: 0%;
-        height: 33vh;
-    }
-    .button-icon {
-        height: 20vh;
+        height: 32vh;
     }
     .slider-text {
         height: 80vw;
     }
     .carousel .carousel-indicators button {
-        margin-top: -10vw;
+        transform: translateY(calc(70px - 23vw));
     }
 }
