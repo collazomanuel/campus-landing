@@ -444,10 +444,12 @@ body {
         font-size: calc(2vh + 1vw);
         padding-top: 0%;
         padding-bottom: 0%;
-        margin-bottom: calc(12vh - 60px);
+        margin-bottom: calc(12vh - 55px);
     }
     .touch-icon {
         width: calc(6vh + 4vw);
+        margin-top: 10%;
+
     }
     .carousel .carousel-indicators button {
         margin-bottom: 2%;
