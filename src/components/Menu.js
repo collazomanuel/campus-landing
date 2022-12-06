@@ -5,13 +5,15 @@ import MenuButton from './MenuButton'
 
 import Linkify from 'react-linkify'
 
+import Marquee from 'react-easy-marquee'
+
 const Menu = () => {
 
   const announcement1 = 'Conocé los cursos de posgrado en Estabilidad en https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2'
   const announcement2 = 'La FIUBA, presente en el XV COINI (más información en https://coiniarg.com)'
   const announcement3 = 'Nanomateriales y nanotecnología: La FIUBA invita a la disertación que ofrecerá el Dr. Galo Soler Illia sobre el tema'
 
-  const marqueeText = announcement1 + ' // ' + announcement2 + ' // ' + announcement3
+  const marqueeText = announcement1 + ' // ' + announcement2 + ' // ' + announcement3 + ' // '
 
   return (
     <div className='middle-part'>
@@ -20,11 +22,9 @@ const Menu = () => {
           ANUNCIOS
         </div>
         <div className='adverts-content cut-text'>
-          <div className='cssmarquee'>
-            <div style={{ animation: 'cssmarquee ' + marqueeText.length/10 +'s linear infinite' }}>
-              <Linkify>{marqueeText}</Linkify>
-            </div>
-          </div>
+          <Marquee duration={100000} reverse="true" className='text-marquee'>
+            <Linkify>{marqueeText}</Linkify>
+          </Marquee>
         </div>
       </div>
       <div className='buttons-container'>
