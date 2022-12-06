@@ -33,7 +33,7 @@ body {
     font-size: calc(10px + 2vmin);
     height: 47vw;
     position: relative;
-    z-index: -1;
+    z-index: -1 !important;
 }
 
 .slider-text {
@@ -102,7 +102,7 @@ body {
     margin: 0% -4%;
     opacity: 1 !important;
     color: var(--clr-1);
-    z-index: 2;
+    z-index: 2 !important;
 }
 
 .carousel-control-next-icon,
