@@ -171,7 +171,8 @@ body {
 }
 
 .text-marquee {
-    height: 2vw !important;
+    height: 1rem !important;
+    padding: 1%;
 }
 
 .marquee-text {
