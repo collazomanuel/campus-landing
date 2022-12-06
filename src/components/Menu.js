@@ -23,7 +23,7 @@ const Menu = () => {
         </div>
         <div className='adverts-content cut-text'>
           <Marquee duration={100000} reverse="true" className='text-marquee'>
-            <Linkify>{marqueeText}</Linkify>
+            <Linkify><p className='marquee-text'>{marqueeText}</p></Linkify>
           </Marquee>
         </div>
       </div>
