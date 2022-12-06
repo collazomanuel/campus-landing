@@ -6,8 +6,9 @@
     --clr-5: #f2a900;
     --clr-6: #b3c50e;
     --clr-7: #d9d9d6;
-    
+
 }
+
 /*===================================================================*/
 html {
     height: 100vh;
@@ -20,28 +21,33 @@ body {
     min-height: -webkit-fill-available;
     overflow-x: hidden;
 }
+
 /*===================================================================*/
 .cssmarquee {
     overflow: hidden;
     position: relative;
-  }
-  .cssmarquee div {
+}
+
+.cssmarquee div {
     font-size: 1em;
     width: 100%;
     height: 100%;
 
     text-align: center;
-    transform:translateX(100%);
-
-  }
-  @keyframes cssmarquee {
-    0% {
     transform: translateX(100%);
+
+}
+
+@keyframes cssmarquee {
+    0% {
+        transform: translateX(100%);
     }
+
     100% {
-    transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-  }
+}
+
 /*===================================================================*/
 .top-part {
     background-color: var(--clr-4);
@@ -54,12 +60,14 @@ body {
     position: relative;
     z-index: -1;
 }
+
 .slider-text {
     width: 100%;
     height: 30vw;
 }
+
 .title {
-    text-align:center;
+    text-align: center;
     font-size: 8.5vw;
     display: flex;
     font-weight: bold;
@@ -69,9 +77,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .title-text {
     padding-left: 3%;
 }
+
 .touch-icon {
     fill: var(--clr-1);
     color: var(--clr-1);
@@ -79,8 +89,9 @@ body {
     width: 5vw;
     height: fit-content;
 }
+
 .subtitle {
-    text-align:center;
+    text-align: center;
     font-size: 2.21vw;
     font-weight: light;
     width: 100%;
@@ -88,11 +99,13 @@ body {
     margin-top: 0%;
     padding-top: 1%;
 }
+
 .slider-image {
     width: 100%;
     overflow: hidden;
     max-height: 100%;
 }
+
 .carousel .carousel-indicators button {
     background-color: transparent;
     border: 1px solid var(--clr-1);
@@ -103,22 +116,28 @@ body {
     margin-left: 0.9%;
     margin-right: 0.9%;
 }
+
 .carousel .carousel-indicators button.active {
     background-color: var(--clr-1);
 }
-.carousel-control-next, .carousel-control-prev {
+
+.carousel-control-next,
+.carousel-control-prev {
     padding: 0%;
     margin: 0% -4%;
     opacity: 1 !important;
     color: var(--clr-1);
     z-index: 2;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
     background: transparent no-repeat center center;
     background-size: 100% 100%;
     height: 5vw !important;
     width: 5vw !important;
 }
+
 /*===================================================================*/
 .middle-part {
     background-color: var(--clr-2);
@@ -126,6 +145,7 @@ body {
     font-size: calc(10px + 2vmin);
     padding: 2.5% 3%;
 }
+
 .adverts-container {
     display: flex;
     justify-content: center;
@@ -135,6 +155,7 @@ body {
     font-size: calc(0px + 1.1vw);
     padding: 0%;
 }
+
 .adverts-title {
     display: flex;
     align-items: center;
@@ -145,6 +166,7 @@ body {
     align-items: middle;
     justify-content: center;
 }
+
 .adverts-content {
     float: right;
     width: 92%;
@@ -155,23 +177,28 @@ body {
     display: flex;
     align-items: center;
 }
+
 .cut-text {
     text-overflow: ellipsis;
-    overflow: hidden; 
-    width: 100%; 
+    overflow: hidden;
+    width: 100%;
     white-space: nowrap;
 }
+
 .adverts-content a {
     text-decoration: none;
     color: var(--clr-3);
 }
+
 .adverts-content a:hover {
     text-decoration: none;
     color: var(--clr-4);
 }
+
 .marquee {
     padding-right: 15%;
 }
+
 .buttons-container {
     width: 100%;
     display: flex;
@@ -181,6 +208,7 @@ body {
     padding-top: 2.5%;
     height: 8.8vw;
 }
+
 .menu-button {
     background-color: var(--clr-1);
     color: var(--clr-3);
@@ -195,49 +223,63 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .button-icon {
     height: 100%;
     padding: 5% 7% 5% 0%;
     width: max-content;
 
 }
+
 .cetec-icon {
     width: 60%;
     height: fit-content;
     padding: 5%;
 }
+
 .button-text {
 
     position: relative;
     text-align: left;
     font-size: calc(1.6vw + 2px);
     display: flex;
-    align-items:center;
+    align-items: center;
     line-height: 120%;
     width: min-content;
 
 }
-.menu-button:hover, .menu-button:focus {
+
+.menu-button:hover,
+.menu-button:focus {
     color: var(--clr-1);
     fill: var(--clr-1);
     font-weight: bolder;
 }
-.book-button:hover, .book-button:focus {
+
+.book-button:hover,
+.book-button:focus {
     background-color: var(--clr-5);
     border-top: 10px solid var(--clr-5);
 }
-.hat-button:hover, .hat-button:focus {
+
+.hat-button:hover,
+.hat-button:focus {
     background-color: var(--clr-6);
     border-top: 10px solid var(--clr-6);
 }
-.teacher-button:hover, .teacher-button:focus {
+
+.teacher-button:hover,
+.teacher-button:focus {
     background-color: var(--clr-4);
     border-top: 10px solid var(--clr-4);
 }
-.cetec-button:hover, .cetec-button:focus {
+
+.cetec-button:hover,
+.cetec-button:focus {
     background-color: var(--clr-4);
     border-top: 10px solid var(--clr-4);
 }
+
 /*===================================================================*/
 .bottom-part {
     background-color: var(--clr-3);
@@ -247,6 +289,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-text {
     font-size: calc(4px + 0.7vw);
     font-weight: lighter;
@@ -255,15 +298,18 @@ body {
     width: 50%;
     padding: 3%;
 }
+
 .footer-text-bold {
     font-weight: bold;
 }
+
 .footer-image {
 
     padding: 0%;
     padding-right: 3%;
     max-width: 30%;
 }
+
 /*===================================================================*/
 /*===================================================================*/
 /*===================================================================*/
@@ -271,15 +317,18 @@ body {
     .top-part {
         height: 109vw;
     }
+
     .slider-text {
         height: 100%;
     }
+
     .title {
         font-size: 14vw;
         display: flex;
         flex-direction: column;
         padding-bottom: 2%;
     }
+
     .subtitle {
 
         font-size: 4vw;
@@ -292,14 +341,17 @@ body {
         padding-right: 0%;
         text-align: center;
     }
+
     .touch-icon {
         width: 20%;
         padding-bottom: 0%;
     }
+
     .title-text {
         padding: 0%;
         margin: 0%;
     }
+
     .carousel .carousel-indicators button {
         width: 1.8vw;
         height: 1.8vw;
@@ -308,36 +360,47 @@ body {
         margin-left: 2%;
         margin-right: 2%;
     }
+
     .slider-image {
         object-fit: cover;
         height: 109vw;
     }
-    .carousel-control-next, .carousel-control-prev {
-        margin: 0vw 1vw ;
-        height: 100%; /*115%*/
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        margin: 0vw 1vw;
+        height: 100%;
+        /*115%*/
     }
-    .carousel-control-next-icon, .carousel-control-prev-icon {
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
         height: 8vw !important;
         width: 8vw !important;
         margin-top: 100%;
     }
+
     /*===================================================================*/
     .middle-part {
         padding: 0%;
     }
+
     .adverts-container {
         font-size: calc(8px + 1vw);
         padding: 3%;
     }
+
     .adverts-title {
         width: 20%;
         padding: 1.5%;
     }
+
     .adverts-content {
         width: 80%;
         padding: 1.5%;
         padding-left: 3%;
     }
+
     .buttons-container {
         grid-gap: 0.4%;
         padding: 0%;
@@ -345,12 +408,14 @@ body {
         height: calc(38vw);
         background-color: var(--clr-3);
     }
+
     .menu-button {
         height: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+
     .button-icon {
         width: 70%;
         height: 64%;
@@ -359,6 +424,7 @@ body {
         padding-top: 25%;
         overflow: visible;
     }
+
     .button-text {
         width: 80%;
         font-size: calc(2vw + 5px);
@@ -368,12 +434,14 @@ body {
         height: 36%;
         margin: auto;
     }
+
     .cetec-icon {
         width: 100%;
         padding: 10%;
         margin: 0%;
         height: 100%;
     }
+
     /*===================================================================*/
     .bottom-part {
         width: 100%;
@@ -381,6 +449,7 @@ body {
         padding: 0%;
         display: flex;
     }
+
     .footer-text {
         font-size: calc(5px + 0.8vw);
         line-height: 0.8vw;
@@ -391,33 +460,41 @@ body {
         padding: 5% 3% 3% 3%;
         width: 100%;
     }
+
     .footer-image {
         position: fixed;
         visibility: hidden;
         display: none;
     }
 }
+
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 64/27) {
 
     .top-part {
         height: 67vh;
     }
+
     .middle-part {
         height: 33vh;
     }
+
     .adverts-container {
         padding-bottom: 2.5%;
     }
+
     .buttons-container {
         padding-top: 0%;
         height: 60%;
     }
+
     .button-icon {
         height: 11vh;
     }
+
     .slider-text {
         height: 33vw;
     }
+
     .carousel .carousel-indicators button {
         margin-top: -10vw;
     }
@@ -428,46 +505,58 @@ body {
     .top-part {
         height: 60vh;
     }
+
     .slider-image {
         object-fit: cover;
         height: 60vh;
     }
+
     .slider-text {
         display: table-cell;
         vertical-align: bottom;
     }
+
     .title {
         font-size: calc(6vh + 4vw);
         padding-bottom: 0%;
     }
+
     .subtitle {
         font-size: calc(2vh + 1vw);
         padding-top: 0%;
         padding-bottom: 0%;
         margin-bottom: calc(12vh - 55px);
     }
+
     .touch-icon {
         width: calc(6vh + 4vw);
     }
+
     .carousel .carousel-indicators button {
         margin-bottom: 2%;
     }
+
     .middle-part {
         height: 30vh;
     }
+
     .adverts-container {
         padding: 2vh;
         height: 8vh;
     }
+
     .buttons-container {
         height: 22vh;
     }
+
     .button-icon {
         width: 80%;
     }
+
     .teacher-icon {
         padding: 11%;
     }
+
     .slider-text {
         height: 80vw;
     }
