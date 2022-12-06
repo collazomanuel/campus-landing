@@ -448,8 +448,6 @@ body {
     }
     .touch-icon {
         width: calc(6vh + 4vw);
-        margin-top: 10%;
-
     }
     .carousel .carousel-indicators button {
         margin-bottom: 2%;
