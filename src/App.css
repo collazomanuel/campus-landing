@@ -422,6 +422,7 @@ body {
         margin-top: -10vw;
     }
 }
+
 @media (min-aspect-ratio: 27/64) and (max-aspect-ratio: 1/1) and (max-width: 768px) {
 
     .top-part {
@@ -476,4 +477,5 @@ body {
         display: flex;
         align-items: center;
     }
+
 }
