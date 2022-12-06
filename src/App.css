@@ -444,7 +444,7 @@ body {
         font-size: calc(2vh + 1vw);
         padding-top: 0%;
         padding-bottom: 0%;
-        margin-bottom: calc(10vh - 50px);
+        margin-bottom: calc(12vh - 60px);
     }
     .touch-icon {
         width: calc(6vh + 4vw);
