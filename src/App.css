@@ -32,8 +32,7 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     height: 47vw;
-    position: relative;
-    z-index: -1 !important;
+    position: relative !important;
 }
 
 .slider-text {
@@ -102,7 +101,9 @@ body {
     margin: 0% -4%;
     opacity: 1 !important;
     color: var(--clr-1);
-    z-index: 2 !important;
+    
+    position: absolute !important;
+    z-index: 1 !important;
 }
 
 .carousel-control-next-icon,
@@ -119,6 +120,8 @@ body {
     color: var(--clr-3);
     font-size: calc(10px + 2vmin);
     padding: 2.5% 3%;
+    position: relative !important;
+    z-index: 2 !important;
 }
 
 .adverts-container {
