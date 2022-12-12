@@ -1,25 +1,38 @@
 
-import '../App.css'
+import { useState, useEffect } from 'react'
+
+import Linkify from 'react-linkify'
+import Marquee from 'react-easy-marquee'
 
 import MenuButton from './MenuButton'
 
-import Linkify from 'react-linkify'
+import announcementsFile from '../anuncios.txt'
+import '../App.css'
 
-import Marquee from 'react-easy-marquee'
+
+const linkGrado = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=2'
+const linkPosgrado = 'https://campus.fi.uba.ar/course/index.php?categoryid=16'
+const linkFormacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=680'
+const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=679'
 
 const Menu = () => {
 
+  const [marqueeText, setMarqueeText] = useState('')
 
-  const linkGrado = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=2'
-  const linkPosgrado = 'https://campus.fi.uba.ar/course/index.php?categoryid=16'
-  const linkFormacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=680'
-  const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=679'
-
-  const announcement1 = 'Conocé los cursos de posgrado en Estabilidad en https://www.fi.uba.ar/noticias/cursos-de-posgrado-del-depto-de-estabilidad-2'
-  const announcement2 = 'La FIUBA, presente en el XV COINI (más información en https://coiniarg.com)'
-  const announcement3 = 'Nanomateriales y nanotecnología: La FIUBA invita a la disertación que ofrecerá el Dr. Galo Soler Illia sobre el tema'
-
-  const marqueeText = announcement1 + ' // ' + announcement2 + ' // ' + announcement3 + ' //' + '\u00A0'
+  useEffect(() => {
+    fetch(announcementsFile)
+      .then(r => r.text())
+      .then(text => {
+        const array = text.toString().split('\n')
+        let auxMarqueeText = ''
+        for (let i in array) {
+          auxMarqueeText += array[i]
+          auxMarqueeText += ' // '
+        }
+        auxMarqueeText += '\u00A0'
+        setMarqueeText(auxMarqueeText)
+      })
+  }, [])
 
   return (
     <div className='middle-part'>

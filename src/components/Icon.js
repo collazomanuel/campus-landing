@@ -1,11 +1,11 @@
 
-import '../App.css'
-
 import { ReactComponent as TouchIcon } from '../icons/touch-icon.svg'
 import { ReactComponent as BookIcon } from '../icons/book-icon.svg'
 import { ReactComponent as HatIcon } from '../icons/hat-icon.svg'
 import { ReactComponent as TeacherIcon } from '../icons/teacher-icon.svg'
 import { ReactComponent as CetecIcon } from '../icons/cetec-icon.svg'
+
+import '../App.css'
 
 const Icon = (props) => {
 

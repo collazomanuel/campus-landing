@@ -1,11 +1,11 @@
 
 import React from 'react'
 
-import Carousel from 'react-bootstrap/Carousel'
-import '../App.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Carousel from 'react-bootstrap/Carousel'
 
 import Icon from './Icon'
+import '../App.css'
 
 const Slider = () => {
 
