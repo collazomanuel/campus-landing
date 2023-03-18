@@ -9,10 +9,10 @@ import MenuButton from './MenuButton'
 import announcementsFile from '../anuncios.txt'
 import '../App.css'
 
-const linkGrado = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=2'
-const linkPosgrado = 'https://campus.fi.uba.ar/course/index.php?categoryid=16'
-const linkFormacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=680'
-const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=679'
+const linkGrado = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=745'
+const linkPosgrado = 'https://campus2.fi.uba.ar/'
+const linkFormacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
+const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=751'
 
 const Menu = () => {
 
