@@ -4,6 +4,7 @@ import '../App.css'
 const Footer = () => {
 
   const footerStyle = 'bottom-part'
+  const footerImage = './img/fiuba-footer-logo.png'
 
   return (
     <div className={footerStyle}>
@@ -12,7 +13,7 @@ const Footer = () => {
         <p>Av. Paseo Colón 850 - C1063ACV - Buenos Aires - Argentina</p>
       </div>
       <img className="d-block w-100 footer-image"
-        src="./img/fiuba-footer-logo.png"
+        src={footerImage}
         alt="footer-logo"
       />
     </div>
