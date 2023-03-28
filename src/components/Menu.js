@@ -11,7 +11,7 @@ import '../App.css'
 
 const linkGrado = 'https://campusgrado.fi.uba.ar'
 const linkPosgrado = 'https://campus2.fi.uba.ar/'
-const linkFormacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
+const linkCapacitacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
 const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=751'
 
 const Menu = () => {
@@ -48,7 +48,7 @@ const Menu = () => {
       <div className='buttons-container'>
         <MenuButton type='Book' text='Grado' link={linkGrado} />
         <MenuButton type='Hat' text='Posgrado' link={linkPosgrado} />
-        <MenuButton type='Teacher' text='Formación docente' link={linkFormacionDocente} />
+        <MenuButton type='Teacher' text='Capacitación docente' link={linkCapacitacionDocente} />
         <MenuButton type='Cetec' text='Cetec' link={linkCetec} />
       </div>
     </div>
