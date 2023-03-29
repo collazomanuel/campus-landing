@@ -11,14 +11,14 @@ const MenuButton = (props) => {
 
   if (type === 'Cetec') {
     return (
-      <a className={'menu-button' + ' ' + type.toLowerCase() + '-button'} href={link}>
+      <a className={'menu-button' + ' ' + type.toLowerCase() + '-button'} href={link} target='_blank' rel='noreferrer'>
         <Icon type={type} />
       </a>
     )
   }
 
   return (
-    <a className={'menu-button' + ' ' + type.toLowerCase() + '-button'} href={link}>
+    <a className={'menu-button' + ' ' + type.toLowerCase() + '-button'} href={link} target='_blank' rel='noreferrer'>
       <Icon type={type} /> <div className='button-text'>{text}</div>
     </a>
   )

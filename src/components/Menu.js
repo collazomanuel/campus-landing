@@ -9,8 +9,8 @@ import MenuButton from './MenuButton'
 import announcementsFile from '../anuncios.txt'
 import '../App.css'
 
-const linkGrado = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=745'
-const linkPosgrado = 'https://campus2.fi.uba.ar/'
+const linkGrado = 'https://campusgrado.fi.uba.ar'
+const linkPosgrado = 'https://campus2.fi.uba.ar'
 const linkCapacitacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
 const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=751'
 
