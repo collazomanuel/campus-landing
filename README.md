@@ -36,7 +36,7 @@ Para personalizar las distintas partes de la página, es necesario recompilar el
 
 Sigue estos pasos:
 
-1. Modifica el contenido en el directorio img, agregando o quitando las imágenes previas del carrusel (Observación: no eliminar la imágen del pie de página).
+1. Modifica el contenido en el directorio public/img, agregando o quitando las imágenes previas del carrusel (Observación: no eliminar la imágen del pie de página).
 
 2. En el archivo src/Components/Slider.js, editar el componente Slider. Primero, se definen los textos que contienen las rutas relativas de cada imagen al principio del componente. Por ejemplo:
 
