@@ -3,6 +3,10 @@
 
 Esta es una página de aterrizaje hecha con React.js, diseñada para funcionar como portal a los distintos sitios relacionados a la Facultad de Ingeniería de la Universidad de Buenos Aires. Incluye un carrusel con imágenes de los distintos edificios de la FIUBA, una marquesina donde se pueden ver distintos anuncios, una botonera que permite navegar por los distintos sitios de la facultad, y un pie de página que incluye información adicional.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75450615/228704389-a2bcdf3e-d4d6-4236-b1c6-57fd9e545625.png" width="50%" align="center">
+</p>
+
 ## Empezando
 
 Para empezar con esta página de aterrizaje, siga los siguientes pasos:
@@ -90,3 +94,9 @@ Esta página de aterrizaje fue construida con las siguientes dependencias:
 - bootstrap
 - react-easy-marquee
 - react-linkify
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75450615/228704566-424d111e-2530-4b96-b5c5-5c744e49c67f.png" width="100%" align="center">
+</p>
