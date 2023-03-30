@@ -65,7 +65,7 @@ const thirdImage = './img/fiuba-carousel-bg-cu-colorized.png'
 
 Para modificar el texto del carrusel, se debe editar el elemento div con nombre de clase "subtitle" que es hijo del componente CarouselCaption que se encuentra dentro del archivo src/Components/Slider.js. Procurar separar cada línea del texto con elementos <br />. Por ejemplo:
 
-```jsx
+```html
 Toda la oferta educativa de la<br/>
 Facultad de Ingeniería de la Universidad de Buenos Aires<br/>
 en un mismo espacio
