@@ -8,8 +8,11 @@ Esta es una página de aterrizaje hecha con React.js, diseñada para funcionar c
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/75450615/229303873-0c98e63e-b8e3-445d-b8e6-4a4cb9e15299.png#gh-light-mode-only" width="50%" align="center">
+  <img src="https://user-images.githubusercontent.com/75450615/229304018-ad0c853c-f863-471d-8fec-f03f6c47c485.png#gh-light-mode-only" width="50%" align="center">
 </p>
+
+![fiuba-footer-logo]()
+
 
 ## Empezando
 
