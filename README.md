@@ -7,6 +7,10 @@ Esta es una página de aterrizaje hecha con React.js, diseñada para funcionar c
   <img src="https://user-images.githubusercontent.com/75450615/228704389-a2bcdf3e-d4d6-4236-b1c6-57fd9e545625.png#gh-dark-mode-only" width="50%" align="center">
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75450615/229303873-0c98e63e-b8e3-445d-b8e6-4a4cb9e15299.png#gh-light-mode-only" width="50%" align="center">
+</p>
+
 ## Empezando
 
 Para empezar con esta página de aterrizaje, siga los siguientes pasos:
