@@ -1,5 +1,5 @@
 
-# Página de Aterrizaje para el Campus Online de la FIUBA
+# Página de Aterrizaje del Campus Online de la FIUBA
 
 Esta es una página de aterrizaje hecha con React.js, diseñada para funcionar como portal a los distintos sitios relacionados a la Facultad de Ingeniería de la Universidad de Buenos Aires. Incluye un carrusel con imágenes de los distintos edificios de la FIUBA, una marquesina donde se pueden ver distintos anuncios, una botonera que permite navegar por los distintos sitios de la facultad, y un pie de página que incluye información adicional.
 
