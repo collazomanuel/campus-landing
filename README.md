@@ -11,9 +11,6 @@ Esta es una página de aterrizaje hecha con React.js, diseñada para funcionar c
   <img src="https://user-images.githubusercontent.com/75450615/229304018-ad0c853c-f863-471d-8fec-f03f6c47c485.png#gh-light-mode-only" width="50%" align="center">
 </p>
 
-![fiuba-footer-logo]()
-
-
 ## Empezando
 
 Para empezar con esta página de aterrizaje, siga los siguientes pasos:
