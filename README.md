@@ -14,7 +14,7 @@ Para empezar con esta página de aterrizaje, siga los siguientes pasos:
 1. Clona el repositorio a tu máquina local
 
 ```bash
-git clone https://github.com/your-username/react-landing-page.git
+git clone https://github.com/collazomanuel/campus-landing.git
 ```
 
 2. Instala las dependencias
