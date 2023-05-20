@@ -63,7 +63,7 @@ const thirdImage = './img/fiuba-carousel-bg-cu-colorized.png'
 
 ### Texto del carrusel
 
-Para modificar el texto del carrusel, se debe editar el elemento div con nombre de clase "subtitle" que es hijo del componente CarouselCaption que se encuentra dentro del archivo src/Components/Slider.js. Procurar separar cada línea del texto con elementos <br />. Por ejemplo:
+Para modificar el texto del carrusel, se debe editar el elemento div con nombre de clase "subtitle" que es hijo del componente CarouselCaption que se encuentra dentro del archivo src/Components/Slider.js. Procurar separar cada línea del texto con elementos. Por ejemplo:
 
 ```html
 Toda la oferta educativa de la<br/>
@@ -79,10 +79,10 @@ Para editar los anuncios presentados en la marquesina, sólo se tiene que modifi
 
 Si se necesita actualizar la dirección URL de alguno de los botones que se encuentran bajo la marquesina, se pueden editar las referencias en el el archivo de texto src/urls.txt, ubicando cada dirección en una línea distinta siguiendo el siguiente orden:
 
-1- URL de Grado
-2- URL de Posgrado
-3- URL de Capacitación Docente
-4- URL de Cetec
+1. URL de Grado<br />
+2. URL de Posgrado<br />
+3. URL de Capacitación Docente<br />
+4. URL de Cetec
 
 ### Botones
 
