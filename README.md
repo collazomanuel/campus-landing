@@ -21,7 +21,7 @@ git clone https://github.com/collazomanuel/campus-landing.git
 
 ```bash
 cd campus-landing
-npm install
+npm install --force
 ```
 
 3. Ejecuta el servidor de desarrollo
@@ -77,14 +77,12 @@ Para editar los anuncios presentados en la marquesina, sólo se tiene que modifi
 
 ### Enlaces de los botones
 
-Si se necesita actualizar la dirección URL de alguno de los botones que se encuentran bajo la marquesina, se pueden editar las referencias en el archivo Menu.js, donde se definen las variables de las direcciones luego de realizar la importación de módulos. Por ejemplo:
+Si se necesita actualizar la dirección URL de alguno de los botones que se encuentran bajo la marquesina, se pueden editar las referencias en el el archivo de texto src/urls.txt, ubicando cada dirección en una línea distinta siguiendo el siguiente orden:
 
-```javascript
-const linkGrado = 'https://campusgrado.fi.uba.ar'
-const linkPosgrado = 'https://campus2.fi.uba.ar'
-const linkCapacitacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
-const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=751'
-```
+1- URL de Grado
+2- URL de Posgrado
+3- URL de Capacitación Docente
+4- URL de Cetec
 
 ### Botones
 
@@ -106,10 +104,10 @@ Una vez definido el texto del botón y ubicado el icono en src/icons, agregamos 
 
 ```jsx
 <div className='buttons-container'>
-  <MenuButton type='Book' text='Grado' link={linkGrado} />
-  <MenuButton type='Hat' text='Posgrado' link={linkPosgrado} />
-  <MenuButton type='Teacher' text='Capacitación docente' link={linkCapacitacionDocente} />
-  <MenuButton type='Cetec' text='Cetec' link={linkCetec} removeText='true' />
+  <MenuButton type='Book' text='Grado' link={urlGrado} />
+  <MenuButton type='Hat' text='Posgrado' link={urlPosgrado} />
+  <MenuButton type='Teacher' text='Capacitación docente' link={urlCapacitacionDocente} />
+  <MenuButton type='Cetec' text='Cetec' link={urlCetec} removeText='true' />
 </div>
 ```
 

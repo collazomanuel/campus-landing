@@ -6,17 +6,19 @@ import Marquee from 'react-easy-marquee'
 
 import MenuButton from './MenuButton'
 
-import announcementsFile from '../anuncios.txt'
 import '../App.css'
 
-const linkGrado = 'https://campusgrado.fi.uba.ar'
-const linkPosgrado = 'https://campusposgrado.fi.uba.ar'
-const linkCapacitacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
-const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=751'
+import announcementsFile from '../anuncios.txt'
+import urlsFile from '../urls.txt'
 
 const Menu = () => {
 
   const [marqueeText, setMarqueeText] = useState('')
+
+  const [urlGrado, setURLGrado] = useState('')
+  const [urlPosgrado, setURLPosgrado] = useState('')
+  const [urlCapacitacionDocente, setURLCapacitacionDocente] = useState('')
+  const [urlCetec, setURLCetec] = useState('')
 
   useEffect(() => {
     fetch(announcementsFile)
@@ -30,6 +32,15 @@ const Menu = () => {
         }
         auxMarqueeText += '\u00A0'
         setMarqueeText(auxMarqueeText)
+      })
+    fetch(urlsFile)
+      .then(r => r.text())
+      .then(text => {
+        const array = text.toString().split('\n')
+        setURLGrado(array[0])
+        setURLPosgrado(array[1])
+        setURLCapacitacionDocente(array[2])
+        setURLCetec(array[3])
       })
   }, [])
 
@@ -46,10 +57,10 @@ const Menu = () => {
         </div>
       </div>
       <div className='buttons-container'>
-        <MenuButton type='Book' text='Grado' link={linkGrado} />
-        <MenuButton type='Hat' text='Posgrado' link={linkPosgrado} />
-        <MenuButton type='Teacher' text='Capacitación docente' link={linkCapacitacionDocente} />
-        <MenuButton type='Cetec' text='Cetec' link={linkCetec} />
+        <MenuButton type='Book' text='Grado' link={urlGrado} />
+        <MenuButton type='Hat' text='Posgrado' link={urlPosgrado} />
+        <MenuButton type='Teacher' text='Capacitación docente' link={urlCapacitacionDocente} />
+        <MenuButton type='Cetec' text='Cetec' link={urlCetec} />
       </div>
     </div>
   )
