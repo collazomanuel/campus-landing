@@ -230,33 +230,28 @@ body {
 
 }
 
-.menu-button:hover,
-.menu-button:focus {
+.menu-button:hover {
     color: var(--clr-1);
     fill: var(--clr-1);
     font-weight: bolder;
 }
 
-.book-button:hover,
-.book-button:focus {
+.book-button:hover {
     background-color: var(--clr-5);
     border-top: 10px solid var(--clr-5);
 }
 
-.hat-button:hover,
-.hat-button:focus {
+.hat-button:hover {
     background-color: var(--clr-6);
     border-top: 10px solid var(--clr-6);
 }
 
-.teacher-button:hover,
-.teacher-button:focus {
+.teacher-button:hover {
     background-color: var(--clr-4);
     border-top: 10px solid var(--clr-4);
 }
 
-.cetec-button:hover,
-.cetec-button:focus {
+.cetec-button:hover {
     background-color: var(--clr-4);
     border-top: 10px solid var(--clr-4);
 }
