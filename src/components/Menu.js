@@ -10,7 +10,7 @@ import announcementsFile from '../anuncios.txt'
 import '../App.css'
 
 const linkGrado = 'https://campusgrado.fi.uba.ar'
-const linkPosgrado = 'https://campus2.fi.uba.ar'
+const linkPosgrado = 'https://campusposgrado.fi.uba.ar'
 const linkCapacitacionDocente = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=752'
 const linkCetec = 'https://campusgrado.fi.uba.ar/course/index.php?categoryid=751'
 
